@@ -56,12 +56,12 @@ class WeatherApp extends StatelessWidget {
               children: [
                 Text(
                   '${weatherData.temperature}°C', // Konvertiere Temperatur in String
-                  style: const TextStyle(fontSize: 24),
+                  style: const TextStyle(fontSize: 26),
                 ),
                 const SizedBox(width: 16),
                 Text(
                   weatherData.weatherCondition,
-                  style: const TextStyle(fontSize: 24),
+                  style: const TextStyle(fontSize: 26),
                 ),
               ],
             ),
